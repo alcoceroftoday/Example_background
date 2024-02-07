@@ -1,0 +1,11 @@
+body{
+	background-color: blue;
+	margin: 0px;
+}
+.content{
+	background-color: yellow;
+	height: 360px;
+}
+.content img {
+	width: 100%;
+}
