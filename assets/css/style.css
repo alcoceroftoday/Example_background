@@ -5,6 +5,9 @@ body{
 .content{
 	background-color: yellow;
 	height: 360px;
+	/* responsive */
+	max-width: 800px;
+	margin: 0 auto;
 }
 .content img {
 	width: 100%;
