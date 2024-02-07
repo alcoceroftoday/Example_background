@@ -3,12 +3,11 @@ body{
 	margin: 0px;
 }
 .content{
-	background-color: yellow;
+	background-image: url('../img/bannerLb.png');
 	height: 360px;
 	/* responsive */
-	max-width: 800px;
+	max-width: 570px; /* Ajuste necesario ya que en este caso la imagen mide 570px */
 	margin: 0 auto;
-}
-.content img {
-	width: 100%;
+	background-repeat: no-repeat;
+	background-position: left top;
 }
