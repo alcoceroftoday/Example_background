@@ -4,10 +4,21 @@ body{
 }
 .content{
 	background-image: url('../img/bannerLa.png');
-	height: 360px;
+	
 	/* responsive */
 	max-width: 570px; /* Ajuste necesario ya que en este caso la imagen mide 570px */
 	margin: 0 auto;
 	background-repeat: no-repeat;
 	background-position: right top;
+	/* ajuste para logo */
+	position: relative;
+	height: 203px;
+}
+.logo{
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
 }
